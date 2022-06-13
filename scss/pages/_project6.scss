@@ -1,4 +1,4 @@
-.pro2 {
+.pro6 {
   width: 100vw;
   margin: 0 auto;
 
@@ -38,7 +38,7 @@
       font-weight: 300;
     }
 
-    .pro2 {
+    .pro6 {
       &__imgbox {
         z-index: 1;
         width: 100rem;
@@ -68,7 +68,7 @@
             display: block;
             line-height: 3rem;
           }
-          .pro2__btn {
+          .pro6__btn {
             @include button;
             width: 16rem;
             height: 4rem;
@@ -128,7 +128,7 @@
     margin: 15rem auto 26rem auto;
     // background-color: $color--lightgray;
 
-    .pro2 {
+    .pro6 {
       &__title {
         width: 36rem;
         height: 20rem;
