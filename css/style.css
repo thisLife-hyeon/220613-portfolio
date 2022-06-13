@@ -90,53 +90,39 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro1 { width: 100vw; margin: 0 auto; }
 
-.pro1 span { font-size: 1.6rem; font-weight: 300; }
-
 .pro1 h6 { font-size: 2.4rem; font-weight: 700; }
 
-.pro1__top { width: 100%; height: 97rem; background-color: #f7f7f7; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.pro1 p, .pro1 li, .pro1 button, .pro1 span { font-size: 1.6rem; font-weight: 300; }
 
-.pro1__top h4 { font-size: 4.8rem; font-weight: 300; margin-bottom: 2rem; }
+.pro1__top { width: 100%; height: 97rem; background-color: #232323; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; position: relative; color: #fff; }
 
-.pro1 .swiper { width: 120rem; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; }
+.pro1__top::before { content: ""; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; opacity: 0.4; background-repeat: no-repeat; background-position: center; background-size: cover; background-position-y: bottom; }
+
+.pro1__top h4 { z-index: 1; margin-bottom: 2rem; font-size: 4.8rem; font-weight: 300; }
+
+.pro1__top .pro1__imgbox { z-index: 1; width: 100rem; margin-top: 4rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.pro1__top .pro1__img { width: 46.8rem; background-repeat: no-repeat; background-position: center; background-size: cover; }
+
+.pro1__top .pro1__img--1 { height: 66.3rem; background-position-y: 68%; }
+
+.pro1__top .pro1__img--2 { margin-top: 20%; }
+
+.pro1__top .pro1__img--2 h5 { font-size: 3.2rem; font-weight: 500; margin-bottom: 2rem; }
+
+.pro1__top .pro1__img--2 p, .pro1__top .pro1__img--2 span { display: block; line-height: 3rem; }
+
+.pro1__top .pro1__img--2 .pro1__btn { width: 12rem; height: 3.6rem; background-color: #fff; border: 1px solid #000; border-radius: 2rem; width: 16rem; height: 4rem; background-color: transparent; color: #fff; border-color: #fff; margin-top: 4rem; margin-left: 68%; }
+
+.pro1__top .pro1__img--2 .pro1__btn:hover, .pro1__top .pro1__img--2 .pro1__btn:active { background-color: rgba(0, 0, 0, 0.1); cursor: pointer; }
+
+.pro1__top .pro1__img--2 .pro1__btn:hover, .pro1__top .pro1__img--2 .pro1__btn:active { background-color: rgba(0, 0, 0, 0.5); cursor: pointer; }
+
+.pro1 .swiper { width: 46.8rem; padding-top: 50px; padding-bottom: 50px; margin: -4rem auto 0 auto; }
 
 .pro1 .swiper .swiper-slide { width: 27rem; height: 60rem; background-position: center; background-size: cover; }
 
-.pro1 .swiper .swiper-slide img { display: block; width: 100%; }
-
-.pro1__bottom { width: 110rem; height: 8rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 8rem auto 6rem auto; }
-
-.pro1__colorbox { display: -webkit-box; display: -ms-flexbox; display: flex; }
-
-.pro1__color { width: 18rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-right: 4rem; }
-
-.pro1__btn { width: 12rem; height: 3.6rem; background-color: #fff; border: 1px solid #000; border-radius: 2rem; font-size: 2rem; width: 18rem; height: 5rem; color: hotpink; border-color: hotpink; border-radius: 6rem; }
-
-.pro1__btn a { text-decoration: none; color: hotpink; }
-
-.pro1__btn:hover, .pro1__btn:active { background-color: rgba(0, 0, 0, 0.1); cursor: pointer; }
-
-.pro1__txtbox1, .pro1__txtbox2 { width: 110rem; height: 12rem; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
-
-.pro1__txtbox1 p, .pro1__txtbox2 p { display: block; width: 72rem; height: 8.8rem; }
-
-.pro1__txtbox1 span, .pro1__txtbox2 span { display: block; font-size: 2rem; }
-
-.pro1__txtbox1 p { width: 100%; }
-
-.pro1__txtbox2 { margin-top: 4rem; margin-bottom: 10rem; }
-
-.pro1__txtbox2 .txtbox2__iconbox { width: 30rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
-
-.pro1__txtbox2 .iconbox__icon { width: 8.8rem; height: 8.8rem; background-repeat: no-repeat; background-position: center; background-size: cover; background-color: #f7f7f7; border-radius: 1.5rem; }
-
-.pro1__txtbox2 .iconbox__icon--1 { background-image: url(../img/i-notice.png); }
-
-.pro1__txtbox2 .iconbox__icon--2 { background-image: url(../img/i-donate.png); }
-
-.pro1__txtbox2 .iconbox__icon--3 { background-image: url(../img/i-basket.png); }
-
-.pro1 .pro1__pdf { width: 100%; height: 90rem; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.pro1 .swiper .swiper-slide img { display: block; width: 100%; border-radius: 20px; }
 
 .dots { width: 14rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
@@ -147,14 +133,6 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 .dots .dot--pp2 { background-color: #964d9a; }
 
 .dots .dot--pp3 { background-color: #f5af1b; }
-
-.color__dot { width: 7.2rem; height: 7.2rem; border-radius: 50%; background-color: #000; }
-
-.dot--1 { background-color: #42164c; }
-
-.dot--2 { background-color: #964d9a; }
-
-.dot--3 { background-color: #f5af1b; }
 
 .pro2 { width: 100vw; margin: 0 auto; }
 
@@ -172,7 +150,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro2__top .pro2__img { width: 46.8rem; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
-.pro2__top .pro2__img--1 { height: 46.8rem; border-radius: 20px; background-image: url(../img/jeju-info.png); background-position-y: top; }
+.pro2__top .pro2__img--1 { height: 46.8rem; border-radius: 20px; background-image: url(../img/jeju-info.png); background-position-y: top; -webkit-box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.3); box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.3); }
 
 .pro2__top .pro2__img--2 { margin-top: 10%; }
 
@@ -194,20 +172,6 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro2 .dot--jj3 { background-color: #9fdae6; }
 
-.pro2 .dot--4 { background-color: #214f26; width: 6.4rem; height: 6.4rem; margin-right: 1rem; }
-
-.pro2 .dot--5 { background-color: #a6ce39; width: 6.4rem; height: 6.4rem; margin-right: 1rem; }
-
-.pro2 .dot--6 { background-color: #9fdae6; width: 6.4rem; height: 6.4rem; margin-right: 1rem; }
-
-.pro2__bottom { width: 110rem; height: 24rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 15rem auto 26rem auto; }
-
-.pro2__bottom .pro2__title { width: 36rem; height: 20rem; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../img/jeju-title.png); }
-
-.pro2__bottom .pro2__color { width: 20rem; height: 8rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-left: 6rem; }
-
-.pro2__bottom .pro2__font { width: 50rem; height: 24rem; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../img/jeju-txt.png); background-size: contain; }
-
 .pro3 { width: 100%; margin: 0 auto; }
 
 .pro3 h4 { font-size: 4.8rem; font-weight: 300; }
@@ -216,7 +180,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro3 p, .pro3 li, .pro3 button, .pro3 span { font-size: 1.6rem; font-weight: 300; }
 
-.pro3__top { width: 100%; height: 97rem; background-color: #535353; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; position: relative; color: #fff; }
+.pro3__top { width: 100%; height: 94rem; background-color: #535353; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; position: relative; color: #fff; }
 
 .pro3__top::before { content: ""; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: url(../img/sun-mockup.jpg); opacity: 0.5; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
@@ -234,7 +198,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro3__top .pro3__img--2 p, .pro3__top .pro3__img--2 span { text-align: left; line-height: 3rem; }
 
-.pro3__top .pro3__img--2 .pro3__btn { width: 12rem; height: 3.6rem; background-color: #fff; border: 1px solid #000; border-radius: 2rem; width: 16rem; height: 4rem; background-color: transparent; color: #fff; border-color: #fff; margin-top: 2rem; }
+.pro3__top .pro3__img--2 .pro3__btn { width: 12rem; height: 3.6rem; background-color: #fff; border: 1px solid #000; border-radius: 2rem; width: 16rem; height: 4rem; background-color: transparent; color: hotpink; border-color: hotpink; margin-top: 2rem; }
 
 .pro3__top .pro3__img--2 .pro3__btn:hover, .pro3__top .pro3__img--2 .pro3__btn:active { background-color: rgba(0, 0, 0, 0.1); cursor: pointer; }
 
@@ -286,7 +250,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro4__top .pro4__img { width: 46.8rem; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
-.pro4__top .pro4__img--1 { height: 66.3rem; background-image: url(../img/web-design.png); background-position-y: 68%; }
+.pro4__top .pro4__img--1 { height: 66.3rem; background-image: url(../img/web-design.png); background-position-y: 68%; -webkit-box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.3); box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.3); }
 
 .pro4__top .pro4__img--2 { margin-top: 20%; }
 
@@ -322,7 +286,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro5__top { width: 100%; height: 97rem; background-color: #000; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; position: relative; color: #fff; }
 
-.pro5__top::before { content: ""; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; opacity: 0.3; background-repeat: no-repeat; background-position: center; background-size: cover; background-color: #535353; }
+.pro5__top::before { content: ""; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: url(../img/motion-research.jpg); opacity: 0.2; background-repeat: no-repeat; background-position: center; background-size: cover; background-color: #000; }
 
 .pro5__top h4 { z-index: 1; margin-bottom: 2rem; font-size: 4.8rem; font-weight: 300; }
 
@@ -330,7 +294,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro5__top .pro5__img { width: 46.8rem; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
-.pro5__top .pro5__img--1 { height: 46.8rem; border-radius: 20px; background-image: url(../img/motion-story.png); background-position-y: top; }
+.pro5__top .pro5__img--1 { height: 46.8rem; border-radius: 20px; background-image: url(../img/motion-story.png); background-position-y: top; -webkit-box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.3); box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.3); }
 
 .pro5__top .pro5__img--2 { margin-top: 10%; }
 
@@ -338,7 +302,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro5__top .pro5__img--2 p, .pro5__top .pro5__img--2 span { display: block; line-height: 3rem; }
 
-.pro5__top .pro5__img--2 .pro5__btn { width: 12rem; height: 3.6rem; background-color: #fff; border: 1px solid #000; border-radius: 2rem; width: 16rem; height: 4rem; background-color: transparent; color: #fff; border-color: #fff; margin-top: 4rem; }
+.pro5__top .pro5__img--2 .pro5__btn { width: 12rem; height: 3.6rem; background-color: #fff; border: 1px solid #000; border-radius: 2rem; width: 16rem; height: 4rem; background-color: transparent; color: hotpink; border-color: hotpink; margin-top: 4rem; }
 
 .pro5__top .pro5__img--2 .pro5__btn:hover, .pro5__top .pro5__img--2 .pro5__btn:active { background-color: rgba(0, 0, 0, 0.1); cursor: pointer; }
 
@@ -374,7 +338,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro6__top { width: 100%; height: 97rem; background-color: #000; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; position: relative; color: #fff; }
 
-.pro6__top::before { content: ""; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: url(../img/jeju-mockup.png); opacity: 0.3; background-repeat: no-repeat; background-position: center; background-size: cover; }
+.pro6__top::before { content: ""; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: url(../img/shinhan-bg-2.png); opacity: 0.3; background-repeat: no-repeat; background-position: center; background-size: cover; background-position-y: bottom; }
 
 .pro6__top h4 { z-index: 1; margin-bottom: 2rem; font-size: 4.8rem; font-weight: 300; }
 
@@ -382,7 +346,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro6__top .pro6__img { width: 46.8rem; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
-.pro6__top .pro6__img--1 { height: 46.8rem; border-radius: 20px; background-image: url(../img/jeju-info.png); background-position-y: top; }
+.pro6__top .pro6__img--1 { height: 46.8rem; border-radius: 20px; background-image: url(../img/uiux-web.png); background-position-y: top; -webkit-box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.3); box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.3); }
 
 .pro6__top .pro6__img--2 { margin-top: 10%; }
 
@@ -390,33 +354,11 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro6__top .pro6__img--2 p, .pro6__top .pro6__img--2 span { display: block; line-height: 3rem; }
 
-.pro6__top .pro6__img--2 .pro6__btn { width: 12rem; height: 3.6rem; background-color: #fff; border: 1px solid #000; border-radius: 2rem; width: 16rem; height: 4rem; background-color: transparent; color: #fff; border-color: #fff; margin-top: 4rem; }
+.pro6__top .pro6__img--2 .pro6__btn { width: 12rem; height: 3.6rem; background-color: #fff; border: 1px solid #000; border-radius: 2rem; width: 16rem; height: 4rem; background-color: transparent; color: hotpink; border-color: hotpink; margin-top: 4rem; }
 
 .pro6__top .pro6__img--2 .pro6__btn:hover, .pro6__top .pro6__img--2 .pro6__btn:active { background-color: rgba(0, 0, 0, 0.1); cursor: pointer; }
 
 .pro6__top .pro6__img--2 .pro6__btn:hover, .pro6__top .pro6__img--2 .pro6__btn:active { background-color: rgba(0, 0, 0, 0.5); cursor: pointer; }
-
-.pro6 .dot { z-index: 1; }
-
-.pro6 .dot--jj1 { background-color: #214f26; }
-
-.pro6 .dot--jj2 { background-color: #a6ce39; }
-
-.pro6 .dot--jj3 { background-color: #9fdae6; }
-
-.pro6 .dot--4 { background-color: #214f26; width: 6.4rem; height: 6.4rem; margin-right: 1rem; }
-
-.pro6 .dot--5 { background-color: #a6ce39; width: 6.4rem; height: 6.4rem; margin-right: 1rem; }
-
-.pro6 .dot--6 { background-color: #9fdae6; width: 6.4rem; height: 6.4rem; margin-right: 1rem; }
-
-.pro6__bottom { width: 110rem; height: 24rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 15rem auto 26rem auto; }
-
-.pro6__bottom .pro6__title { width: 36rem; height: 20rem; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../img/jeju-title.png); }
-
-.pro6__bottom .pro6__color { width: 20rem; height: 8rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-left: 6rem; }
-
-.pro6__bottom .pro6__font { width: 50rem; height: 24rem; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../img/jeju-txt.png); background-size: contain; }
 
 .pro7 { width: 100vw; margin: 0 auto; }
 
@@ -434,7 +376,7 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro7__top .pro7__img { width: 46.8rem; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
-.pro7__top .pro7__img--1 { height: 46.8rem; border-radius: 20px; background-image: url(../img/uiux-mobile.jpg); background-position-y: top; }
+.pro7__top .pro7__img--1 { height: 46.8rem; border-radius: 20px; background-image: url(../img/uiux-mobile.jpg); background-position-y: top; -webkit-box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.3); box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.3); }
 
 .pro7__top .pro7__img--2 { margin-top: 10%; }
 
@@ -442,33 +384,11 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 
 .pro7__top .pro7__img--2 p, .pro7__top .pro7__img--2 span { display: block; line-height: 3rem; }
 
-.pro7__top .pro7__img--2 .pro7__btn { width: 12rem; height: 3.6rem; background-color: #fff; border: 1px solid #000; border-radius: 2rem; width: 16rem; height: 4rem; background-color: transparent; color: #fff; border-color: #fff; margin-top: 4rem; }
+.pro7__top .pro7__img--2 .pro7__btn { width: 12rem; height: 3.6rem; background-color: #fff; border: 1px solid #000; border-radius: 2rem; width: 16rem; height: 4rem; background-color: transparent; color: hotpink; border-color: hotpink; margin-top: 4rem; }
 
 .pro7__top .pro7__img--2 .pro7__btn:hover, .pro7__top .pro7__img--2 .pro7__btn:active { background-color: rgba(0, 0, 0, 0.1); cursor: pointer; }
 
 .pro7__top .pro7__img--2 .pro7__btn:hover, .pro7__top .pro7__img--2 .pro7__btn:active { background-color: rgba(0, 0, 0, 0.5); cursor: pointer; }
-
-.pro7 .dot { z-index: 1; }
-
-.pro7 .dot--jj1 { background-color: #214f26; }
-
-.pro7 .dot--jj2 { background-color: #a6ce39; }
-
-.pro7 .dot--jj3 { background-color: #9fdae6; }
-
-.pro7 .dot--4 { background-color: #214f26; width: 6.4rem; height: 6.4rem; margin-right: 1rem; }
-
-.pro7 .dot--5 { background-color: #a6ce39; width: 6.4rem; height: 6.4rem; margin-right: 1rem; }
-
-.pro7 .dot--6 { background-color: #9fdae6; width: 6.4rem; height: 6.4rem; margin-right: 1rem; }
-
-.pro7__bottom { width: 110rem; height: 24rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 15rem auto 26rem auto; }
-
-.pro7__bottom .pro7__title { width: 36rem; height: 20rem; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../img/jeju-title.png); }
-
-.pro7__bottom .pro7__color { width: 20rem; height: 8rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-left: 6rem; }
-
-.pro7__bottom .pro7__font { width: 50rem; height: 24rem; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../img/jeju-txt.png); background-size: contain; }
 
 .footer { width: 100vw; height: 32rem; background-color: #535353; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 0 auto; color: #ffdcf0; line-height: 1.5; }
 
@@ -501,6 +421,12 @@ p, li, button, span { font-size: 1.6rem; font-weight: 300; }
 .popup1__close:hover, .popup2__close:hover, .popup3__close:hover, .popup5__close:hover, .popup6__close:hover, .popup7__close:hover { color: hotpink; }
 
 .pdf { width: 100%; height: 90rem; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.popup3__content { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 68vw; height: 80vh; background-color: #fff; -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); border-radius: 3px; }
+
+.popup3__content h5 { font-size: 3.2rem; font-weight: 500; margin-top: 10%; }
+
+.popup3__img { display: block; height: 90vh; }
 
 .active__box { -webkit-transform: translateX(-200%); transform: translateX(-200%); -webkit-transition: -webkit-transform 1.4s ease; transition: -webkit-transform 1.4s ease; transition: transform 1.4s ease; transition: transform 1.4s ease, -webkit-transform 1.4s ease; }
 
