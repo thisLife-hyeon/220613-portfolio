@@ -1,9 +1,10 @@
 const topClass = {
   home: document.querySelector(".home"),
   skill: document.querySelector(".skill"),
-  project4: document.querySelector(".project4"),
+  project6: document.querySelector(".project6"),
   project2: document.querySelector(".project2"),
-  project3: document.querySelector(".project3"),
+  // project3: document.querySelector(".project3"),
+  project5: document.querySelector(".project5"),
   contact: document.querySelector(".contact"),
   arrowUp: document.querySelector(".arrow-up"),
 };
@@ -11,9 +12,10 @@ const topClass = {
 const topId = {
   sectionHome: document.querySelector("#home"),
   sectionSkill: document.querySelector("#skill"),
-  sectionProject4: document.querySelector("#project4"),
+  sectionProject6: document.querySelector("#project6"),
   sectionProject2: document.querySelector("#project2"),
-  sectionProject3: document.querySelector("#project3"),
+  // sectionProject3: document.querySelector("#project3"),
+  sectionProject5: document.querySelector("#project5"),
   sectionContact: document.querySelector("#contact"),
 };
 
@@ -23,14 +25,14 @@ topClass.home.addEventListener("click", function () {
 topClass.skill.addEventListener("click", function () {
   topId.sectionSkill.scrollIntoView({ behavior: "smooth", block: "center" });
 });
-topClass.project4.addEventListener("click", function () {
-  topId.sectionProject4.scrollIntoView({ behavior: "smooth", block: "center" });
+topClass.project5.addEventListener("click", function () {
+  topId.sectionProject5.scrollIntoView({ behavior: "smooth", block: "center" });
+});
+topClass.project6.addEventListener("click", function () {
+  topId.sectionProject6.scrollIntoView({ behavior: "smooth", block: "center" });
 });
 topClass.project2.addEventListener("click", function () {
   topId.sectionProject2.scrollIntoView({ behavior: "smooth", block: "center" });
-});
-topClass.project3.addEventListener("click", function () {
-  topId.sectionProject3.scrollIntoView({ behavior: "smooth", block: "center" });
 });
 topClass.contact.addEventListener("click", function () {
   topId.sectionContact.scrollIntoView({ behavior: "smooth", block: "center" });
