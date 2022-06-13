@@ -29,6 +29,7 @@
       background-image: url(../img/web-header.png);
       opacity: 0.4;
       @include bgimg;
+      background-position-y: bottom;
     }
 
     h4 {
@@ -117,36 +118,36 @@
     }
   }
 
-  &__bottom {
-    width: 110rem;
-    height: 24rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 15rem auto 56rem auto;
-    // background-color: $color--lightgray;
+  // &__bottom {
+  //   width: 110rem;
+  //   height: 24rem;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  //   margin: 15rem auto 56rem auto;
+  //   // background-color: $color--lightgray;
 
-    .pro4 {
-      &__title {
-        width: 36rem;
-        height: 20rem;
-        @include bgimg;
-        background-image: url(../img/jeju-title.png);
-      }
-      &__color {
-        width: 20rem;
-        height: 8rem;
-        display: flex;
-        align-items: center;
-        margin-left: 6rem;
-      }
-      &__font {
-        width: 50rem;
-        height: 24rem;
-        @include bgimg;
-        background-image: url(../img/jeju-txt.png);
-        background-size: contain;
-      }
-    }
-  }
+  //   .pro4 {
+  //     &__title {
+  //       width: 36rem;
+  //       height: 20rem;
+  //       @include bgimg;
+  //       background-image: url(../img/jeju-title.png);
+  //     }
+  //     &__color {
+  //       width: 20rem;
+  //       height: 8rem;
+  //       display: flex;
+  //       align-items: center;
+  //       margin-left: 6rem;
+  //     }
+  //     &__font {
+  //       width: 50rem;
+  //       height: 24rem;
+  //       @include bgimg;
+  //       background-image: url(../img/jeju-txt.png);
+  //       background-size: contain;
+  //     }
+  //   }
+  // }
 }
