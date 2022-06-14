@@ -26,7 +26,7 @@
 
     &::before {
       @include pseudo;
-      background: url(../img/uiux-mobile-bg.JPG);
+      background: url(../img/uiux-mobile-bg.jpg);
       opacity: 0.3;
       @include bgimg;
     }
@@ -54,7 +54,7 @@
           // height: 66.3rem;
           height: 46.8rem;
           border-radius: 20px;
-          background-image: url(../img/uiux-mobile.JPG);
+          background-image: url(../img/uiux-mobile.jpg);
           background-position-y: top;
           box-shadow: 2px 10px 10px rgba($color: $color--black, $alpha: 0.3);
         }
