@@ -427,7 +427,7 @@ strong { font-size: 200px; }
 
 .popup1__img, .popup2__img, .popup3__img, .popup5__img, .popup6__img, .popup7__img { display: block; height: 90vh; }
 
-.popup1__close, .popup2__close, .popup3__close, .popup5__close, .popup6__close, .popup7__close { border-radius: 50%; color: #535353; z-index: 1000; font-size: 5rem; font-weight: 300; position: fixed; top: 0; right: 0; padding-right: 1.2rem; margin-top: -2rem; }
+.popup1__close, .popup2__close, .popup3__close, .popup5__close, .popup6__close, .popup7__close { border-radius: 50%; color: #535353; z-index: 1000; font-size: 5rem; font-weight: 300; position: fixed; top: 0; right: 0; padding-right: 1.2rem; margin-top: -1rem; }
 
 .popup1__close:hover, .popup2__close:hover, .popup3__close:hover, .popup5__close:hover, .popup6__close:hover, .popup7__close:hover { color: hotpink; }
 
