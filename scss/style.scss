@@ -1,17 +1,17 @@
-@import 'components/abstracts';
-@import 'components/fonts';
+@import "components/abstracts";
+@import "components/fonts";
 
-@import 'pages/header';
-@import 'pages/project1';
-@import 'pages/project2';
+@import "pages/header";
+@import "pages/project1";
+@import "pages/project2";
 // @import "pages/project3";
-@import 'pages/project3boot';
-@import 'pages/project4';
-@import 'pages/project5';
-@import 'pages/project6';
-@import 'pages/project7';
-@import 'pages/footer';
-@import 'pages/popup';
+@import "pages/project3boot";
+@import "pages/project4";
+@import "pages/project5";
+@import "pages/project6";
+@import "pages/project7";
+@import "pages/footer";
+@import "pages/popup";
 
 .active__box {
   // height: 600px;
@@ -129,12 +129,7 @@
   .gnb {
     height: 10rem;
   }
-  // .pro3__imgcontain {
-  //   p,
-  //   span {
-  //     display: inline;
-  //   }
-  // }
+
   .pro3__bottom {
     width: 100vw;
     height: 300rem;
@@ -199,10 +194,6 @@
     height: 40rem;
     margin-bottom: 3rem;
   }
-  // p,
-  // span {
-  //   display: inline;
-  // }
 
   .popup1,
   .popup2 {

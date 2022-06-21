@@ -26,10 +26,10 @@
 
     &::before {
       @include pseudo;
-      // background-image: url(../img/web-header.png);
-      opacity: 0.4;
+      background-image: url(../img/color-pp/color-pp-19.jpg);
+      opacity: 0.1;
       @include bgimg;
-      background-position-y: bottom;
+      background-position-y: 64%;
     }
 
     h4 {
@@ -73,8 +73,8 @@
             width: 16rem;
             height: 4rem;
             background-color: transparent;
-            color: $color--white;
-            border-color: $color--white;
+            color: $color--pink;
+            border-color: $color--pink;
             margin-top: 4rem;
             margin-left: 68%;
 

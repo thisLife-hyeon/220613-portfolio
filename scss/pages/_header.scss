@@ -61,9 +61,10 @@
 
 .header {
   width: 100vw;
-  height: 80rem;
-  background-color: #fff4e9;
-  // background-color: aquamarine;
+  height: 86rem;
+  background-color: #19193d;
+  border-bottom: 20px solid hotpink;
+  // background-color: #fff4e9;
   // @include bgimg;
   // background-size: contain;
 
@@ -72,23 +73,34 @@
   //피드백
   //배경 밑부분 약간 자르기.
   //밑 콘텐츠 약간 더 보이게(사용자 유출방지)
+  svg {
+    width: 100vw;
+    height: 86rem;
+    position: absolute;
+    z-index: 1;
+  }
 
   #myimg {
-    width: 100vw;
-    margin-top: 16rem;
+    width: 118vw;
+    margin-top: 8rem;
     position: absolute;
+    left: -14%;
   }
 
   &__txt {
     position: relative;
-    top: 30%;
-    left: 10%;
+    z-index: 10;
+    top: 28%;
+    left: 9%;
     // width: 130rem;
     // height: 92rem;
     // margin: 0 auto;
     h1 {
-      font-size: 12rem;
-      font-weight: 700;
+      font-family: "Nerko One", cursive;
+      font-size: 20rem;
+      font-weight: 500;
+      color: #fff;
+      line-height: 0.9;
     }
     p {
       font-size: 2.4rem;
@@ -100,6 +112,7 @@
   width: 130rem;
   height: 92rem;
   margin: 0 auto;
+  margin-top: 10rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -205,4 +218,16 @@
   ul {
     padding: 0;
   }
+}
+
+.superShadow {
+  text-shadow: 0 1px 0 hsl(174, 5%, 80%), 0 2px 0 hsl(174, 5%, 75%), 0 3px 0 hsl(174, 5%, 70%),
+    0 4px 0 hsl(174, 5%, 66%), 0 5px 0 hsl(174, 5%, 64%), 0 6px 0 hsl(174, 5%, 62%),
+    0 7px 0 hsl(174, 5%, 61%), 0 8px 0 hsl(174, 5%, 60%), 0 0 5px rgba(0, 0, 0, 0.05),
+    0 1px 3px rgba(0, 0, 0, 0.2), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2),
+    0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+strong {
+  font-size: 200px;
 }
