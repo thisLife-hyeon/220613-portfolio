@@ -26,10 +26,10 @@
 
     &::before {
       @include pseudo;
-      // background: url(../img/jeju-mockup.png);
-      opacity: 0.3;
+      background: url(../img/motion-research.png);
+      opacity: 0.2;
       @include bgimg;
-      background-color: $color--darkgray;
+      background-color: $color--black;
     }
 
     h4 {
@@ -37,6 +37,7 @@
       margin-bottom: 2rem;
       font-size: 4.8rem;
       font-weight: 300;
+      // color: $color--pink;
     }
 
     .pro5 {
@@ -56,6 +57,7 @@
           border-radius: 20px;
           background-image: url(../img/motion-story.png);
           background-position-y: top;
+          box-shadow: 2px 10px 10px rgba($color: $color--black, $alpha: 0.3);
         }
         &--2 {
           margin-top: 10%;
@@ -74,8 +76,8 @@
             width: 16rem;
             height: 4rem;
             background-color: transparent;
-            color: $color--white;
-            border-color: $color--white;
+            color: $color--pink;
+            border-color: $color--pink;
             margin-top: 4rem;
             // margin-left: 68%;
 
