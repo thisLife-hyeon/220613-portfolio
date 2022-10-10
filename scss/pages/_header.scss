@@ -61,10 +61,12 @@
 
 .header {
   width: 100vw;
+
   height: 86rem;
   background-color: #19193d;
   border-bottom: 20px solid hotpink;
   // background-color: #fff4e9;
+
   // @include bgimg;
   // background-size: contain;
 
@@ -92,6 +94,7 @@
     z-index: 10;
     top: 28%;
     left: 9%;
+
     // width: 130rem;
     // height: 92rem;
     // margin: 0 auto;
@@ -101,6 +104,7 @@
       font-weight: 500;
       color: #fff;
       line-height: 0.9;
+
     }
     p {
       font-size: 2.4rem;
@@ -113,6 +117,7 @@
   height: 92rem;
   margin: 0 auto;
   margin-top: 10rem;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -219,7 +224,6 @@
     padding: 0;
   }
 }
-
 .superShadow {
   text-shadow: 0 1px 0 hsl(174, 5%, 80%), 0 2px 0 hsl(174, 5%, 75%), 0 3px 0 hsl(174, 5%, 70%),
     0 4px 0 hsl(174, 5%, 66%), 0 5px 0 hsl(174, 5%, 64%), 0 6px 0 hsl(174, 5%, 62%),
@@ -231,3 +235,4 @@
 strong {
   font-size: 200px;
 }
+
